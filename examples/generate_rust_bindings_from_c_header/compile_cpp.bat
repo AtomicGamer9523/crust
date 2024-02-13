@@ -1,0 +1,1 @@
+clang++ -Wall -c -std=c++11 -o clib.lib .\impl.cpp

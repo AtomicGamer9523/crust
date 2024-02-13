@@ -1,0 +1,12 @@
+[package]
+name = "generate_rust_bindings_from_c_header"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+[[bin]]
+name = "generate_rust_bindings_from_c_header"
+path = "main.rs"
+
+[dependencies.crust]
+path = "../.."

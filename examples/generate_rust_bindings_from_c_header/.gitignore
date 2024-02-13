@@ -1,0 +1,4 @@
+# We don't want the compiled lib
+*.dll
+*.so
+*.lib
